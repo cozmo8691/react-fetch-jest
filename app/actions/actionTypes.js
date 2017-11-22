@@ -1,0 +1,13 @@
+
+export const LOAD_ITEMS = 'LOAD_ITEMS';
+
+export const SAVE_ITEM = 'SAVE_ITEM';
+export const ADD_ITEM = 'ADD_ITEM';
+export const UPDATE_ITEM = 'UPDATE_ITEM';
+
+export const FILTER_ITEMS = 'FILTER_ITEMS';
+
+export const UPDATE_FETCH_ITEMS_STATUS = 'UPDATE_FETCH_ITEMS_STATUS';
+export const UPDATE_EDIT_ITEM_ID = 'UPDATE_EDIT_ITEM_ID';
+
+export const DISPLAY_MESSAGE = 'DISPLAY_MESSAGE';

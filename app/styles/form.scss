@@ -1,0 +1,43 @@
+
+form {
+  .itemId {
+    display: none;
+  }
+
+  .form-row {
+    margin: 5px 0;
+    position: relative;
+    width: 100%;
+    font-size: 0.8em;
+
+    @media (min-width: 620px) {
+      margin: 10px 0;
+    }
+
+    label {
+      display: block;
+      font-weight: 200;
+      text-transform: capitalize;
+    }
+
+    .input-error {
+      color: tomato;
+      height: 30px;
+      font-size: 0.7em;
+      font-weight: 600;
+      padding-left: 2px;
+    }
+  }
+
+  .btn-save {
+    width: 100px;
+    height: 40px;
+    padding: 5px 25px;
+  }
+
+  .btn-save-disabled {
+    background-color: #666;
+    color: #ccc;
+    cursor: default;
+  }
+}

@@ -1,0 +1,21 @@
+
+.item-list {
+  margin: 10px auto;
+
+  li {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: $itemBGColour;
+    color: $itemTextColour;
+
+    .btn-edit {
+      width: 100px;
+      height: 40px;
+      margin-top: 10px;
+    }
+  }
+}
