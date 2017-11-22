@@ -1,6 +1,6 @@
 # react-fetch-jest
 
-React starter project using React 16, Redux, Fetch and Jest.
+React starter CRUD project using React 16, Redux, Fetch and Jest.
 
 
 ## To run a development version locally
